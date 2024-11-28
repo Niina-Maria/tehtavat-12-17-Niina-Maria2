@@ -1,0 +1,108 @@
+*,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+li {
+    list-style: none;
+}
+
+.nav-wrapper {
+    height: 80px;
+    display: flex;
+    padding-left: 5px;
+    padding-top: 30px;
+    background-color: lightgray;
+    justify-content: space-between;
+
+}
+
+.right-menu {
+    display: flex;
+    padding-right: 5px;
+}
+
+.right-menu-items {
+    display: flex;
+    margin-left: 400px;;
+  }
+
+.right-menu-items li a {
+    padding: 0 12px;
+  }
+
+
+
+.logo {
+    height: 30px;
+    width: 120px;
+}
+
+select {
+    border: none;
+    background-color: lightgray;
+}
+
+
+.grid-container {
+    display: flex;
+    justify-content:left;
+    margin: 20px;
+    margin-top: 40px;
+    width: 768px;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar{
+        background: lightgrey;
+    }    
+}
+@media only screen and (min-width:768){
+    .grid-container {
+      background: white;
+    }    
+}
+
+.table { 
+    margin-top: 20px;
+    border-style: none;
+    width: 100%;
+    
+} 
+
+.form { 
+    border-collapse: collapse; 
+    width: 300px;
+    margin-right: 200px;
+} 
+
+.form label{
+  padding-bottom: 5px;
+  width: 300px;
+}
+
+.form input[type=text]{
+    height: 30px;
+    width: 100%;
+}
+
+.button {
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    
+
+}
+
+
+th, 
+td { 
+    padding: 8px; 
+    text-align: left; 
+} 

@@ -1,0 +1,148 @@
+.grid-container {
+    display: grid;
+    border: 1px solid black;    
+    width: fit-content;
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.taulukko {
+    display: grid;
+    grid-template-columns: 2;
+    place-content: center;
+    border: 1px solid black;
+}
+
+.taulukko div {
+    display: grid;
+    grid-column: span 2;
+    padding: 5px;
+}
+
+.taulukko .a1 {
+    grid-column: span 1;
+    justify-content: right;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taulukko .a2 {
+    grid-column: span 1;
+    justify-content: right;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.taulukko .a3 {
+    grid-column: span 1;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taulukko .a4 {
+    grid-column: span 1;
+    justify-content: right;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.taulukko .a5 {
+    grid-column: span 1;
+    justify-content: right;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taulukko .a6 {
+    grid-column: span 1;
+    justify-content: right;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taulukko .a7 {
+    grid-column: span 1;
+    justify-content: right;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taulukko .a8 {
+    grid-column: span 1;
+    justify-content: right;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.taulukko .a9 {
+    grid-column: span 1;
+    justify-content: right;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taulukko .a10 {
+    grid-column: span 1;
+    justify-content: right;
+    margin-left: 10px;
+
+}
+
+.taulukko .a11 {
+    grid-column: span 1;
+    justify-content: right;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taulukko .a12 {
+    grid-column: span 1;
+    justify-items: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taulukko .a12 .radio {
+    justify-items: right;
+}
+
+.taulukko .a13 {
+    grid-column: span 1;
+    justify-content: right;
+    margin-left: 10px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.taulukko .a14 {
+    grid-column: span 1;
+    justify-items: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taulukko .a14 .radio {
+    justify-items: right;
+}
+.taulukko .a15 {
+    display: flex;
+    justify-content: space-between;
+    grid-column: span 2;
+}
+
+#napit2 {
+    margin-left: 175px;
+}
+
+

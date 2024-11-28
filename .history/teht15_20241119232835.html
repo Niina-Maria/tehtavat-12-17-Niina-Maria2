@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="teht15.css">
+    </head>
+        <style>
+               
+
+        </style>
+            <body>
+                    <div class="grid-container">
+                        <div class="grid-item">            
+                            <div><label for="school">Oppilaitos: </label></div> 
+                            <div><label for="name">Nimi: </label></div> 
+                            <div><label for="year">Vuosi: </label></div>
+                            <div><label for="course">Kurssin nimi:  </label></div>
+                            <div><label for="type">Kurssin tyyppi:</label></div>
+                            <div><label for="sukupuoli">Sukupuoli:</label></div>
+                            <div><label for="hobbies">Harrastukset:</label></div>
+                        </div>
+                        <div class="grid-item-three">
+                            <div><input type="text" id="school" name="school"></div> 
+                            <div><input type="text" id="name" name="name"></div> 
+                            <div ><input type="password" id="year" name="year"></div>    
+                            <div>
+                                <select class="course" name="course" size="4">
+                                <option value="matematiikka">Matematiikka</option>
+                                <option value="fysiikka">Fysiikka</option>
+                                <option value="kemia">Kemia</option>
+                                <option value="tietorakenteet">Tietorakenteet</option>
+                                <option value="webohjelmointi">Webohjelmointi</option>
+                                </select>  
+                            </div>
+                            <div >
+                                <select class="type" name="type" size="1">
+                                    <option value="lähiopetus">Lähiopetus</option>
+                                    <option value="etäopetus">Etäopetus</option>
+                                    <option value="hybridi">Hybridi</option>
+                                    <option value="monimuoto">Monimuoto</option>
+                                    <option value="avoinamk">AvoinAMK</option>
+                                </select>
+                            </div>
+                            <div >
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label class="sukup"for="male">Mies</label><br>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label class="sukup"for="female">Nainen</label><br>
+                                <input type="radio" id="other" name="gender" value="other">
+                                <label class="sukup"for="other">Muu</label>
+                            </div>
+                            <div >
+                                <input type="checkbox" id="hobbiesbike" name="hobbiesbike">
+                                    <label for="hobbiesbike"> Pyöräily</label><br>
+                                    <input type="checkbox" id="hobbiesaskartelu" name="hobbiesaskartelu">
+                                    <label for="hobbiesaskartelu"> Askartelu</label><br>
+                                    <input type="checkbox" id="hobbiestennis" name="hobbiestennis" checked="checked">
+                                    <label for="hobbiestennis"> Tennis</label><br>
+                                    <input type="checkbox" id="hobbiesuinti" name="hobbiesuinti">
+                                    <label for="hobbiesuinti"> Uinti</label><br> 
+                            </div>
+                        </div>
+                        <div class="grid-item-two">
+                            <div>
+                                <input type="reset" id="napit" value="Tyhjennä"><br>
+                                <input type="submit"id="napit2" value="Lähetä">
+                            </div>
+                        </div>
+
+                    </div>
+            </body>
+</html>
+                        

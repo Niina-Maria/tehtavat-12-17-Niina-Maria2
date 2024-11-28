@@ -1,0 +1,68 @@
+li {
+    list-style: none;
+}
+
+.nav-wrapper {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+
+.logo {
+    vertical-align: center;
+}
+
+.a {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    margin-right: 350px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar{
+        background: lightgrey;
+    }    
+}
+@media only screen and (min-width:768){
+    .grid-container {
+      background: white;
+    }    
+}
+
+.img {
+    margin-right: 10px;
+    float: center;
+}
+
+.column {
+    padding-top: 20px;
+    align-content: space-between;
+}
+
+.table { 
+    border-collapse: collapse; 
+    width: 66%;
+    
+} 
+
+.form { 
+    border-collapse: collapse; 
+    width: 33%; 
+    margin-right: 600px;
+} 
+
+th, 
+td { 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+} 

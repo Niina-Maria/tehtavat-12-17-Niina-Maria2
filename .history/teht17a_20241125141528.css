@@ -1,0 +1,38 @@
+.nav {
+
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar{
+        background: grey;
+    }
+    
+}
+
+
+.table { 
+    border-collapse: collapse; 
+    width: 66%; 
+    margin-right: 10px; 
+
+} 
+
+.form { 
+    border-collapse: collapse; 
+    width: 33%; 
+    margin-right: 10px; 
+
+} 
+
+th, 
+td { 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+} 

@@ -1,0 +1,31 @@
+
+.column { 
+    display: grid; 
+    justify-content: space-between; 
+    margin: 20px; 
+} 
+
+.table { 
+    border-collapse: collapse; 
+    width: 66%; 
+    margin-right: 10px; 
+    align-content: right;
+} 
+
+.form { 
+    border-collapse: collapse; 
+    width: 33%; 
+    margin-right: 10px; 
+    align-content: left;
+} 
+
+th, 
+td { 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+} 
+
+th { 
+    background-color: #f2f2f2; 
+} 

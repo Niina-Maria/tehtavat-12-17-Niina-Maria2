@@ -1,0 +1,48 @@
+.grid-container {
+  display: grid;
+  gap: 10px;
+  border: 1px solid black;
+  padding:5px;
+}
+
+.grid-item {
+   text-align: center;
+   padding: 10px;
+   border: 1px solid black;
+}
+
+.grid-item > div {
+  border: 1px solid black;
+  margin: 5px;
+  padding:5px;
+  grid-auto-rows: auto;
+
+}
+
+.grid-item-three {
+   padding: 10px;
+   padding-left: 0;
+   padding-bottom: 0;
+   grid-column: 2 / span 1;
+}
+
+.grid-item-three > div {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+
+}
+.grid-item-four {
+   padding: 10px;
+   margin: 5px;
+   grid-column: 1 / span 2;
+   border: 1px solid black;
+}
+.grid-item-four > div {
+}
+
+
+
+
+
+

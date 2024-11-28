@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box; 
+   }
+   body {
+     margin: 0;
+   }
+   #Savonia {
+     display: flex;
+     height:270px;
+     background-color: white;
+     column-gap: 10px;
+     row-gap: 10px;
+   }
+   #Savonia > article {
+     flex: 1;
+     background-color: gold;
+   }
+   #Savonia > nav, 
+   #Savonia > aside {
+     flex: 20% 15%;
+     background-color: gold;
+     align-content: center;
+   }
+   #Savonia > nav {
+    width: 250px;
+    justify-content: center;
+    text-align: left;
+   }
+   #Savonia > nav {
+     order: -1;
+     
+   }
+   header, footer, article, nav, aside {
+     padding: 2em;
+   }
+   footer {
+     background-color: gold;
+     height:60px;
+     line-height:50%;
+     text-align: center;
+     margin-top: 10px;
+   } 
+   header{
+     background-color: gold;
+     height: 60px;
+     line-height: 50%;
+     text-align: center;
+     margin-bottom: 10px;
+   }
+   .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+   }
+   .flex-container > div {
+    text-align: left;
+    line-height:16px;
+    border-width: 1px;
+    border-style: solid;
+    width: 320px;
+    height: 150px;
+    display: flex;
+    padding: 10px;
+    }
+
+/*     #siteAds{
+      width: 200px;
+      align-content: center;
+    } */
+   
+   #ekamainos {
+    border-width: 1px;
+    border-style: solid;
+    width: 140px;
+    height: 80px;
+    text-align: center;
+    align-content: center;
+    }
+    #tokamainos {
+    border-width: 1px;
+    border-style: solid;
+    width: 140px;
+    height: 80px;
+    text-align: center;
+    align-content: center;
+    }
+/*    #ekateksti{
+    border-width: 1px;
+    border-style: solid;
+    width: 320px;
+    height: 150px;
+    position: relative;
+ 
+   }
+   #tokateksti{
+    border-width: 1px;
+    border-style: solid;
+    width: 320px;
+    height: 150px;
+    position: absolute;
+ 
+   } */

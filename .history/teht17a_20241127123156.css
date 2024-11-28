@@ -1,0 +1,190 @@
+*,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+li {
+    list-style: none;
+}
+
+.nav-wrapper {
+    height: 80px;
+    display: flex;
+    padding-left: 5px;
+    padding-top: 30px;
+    background-color: lightgray;
+    justify-content: space-between;
+
+}
+
+.right-menu {
+    display: flex;
+    padding-right: 5px;
+}
+
+.right-menu-items {
+    display: flex;
+    margin-left: 400px;;
+  }
+
+.right-menu-items li a {
+    padding: 0 12px;
+  }
+
+
+
+.logo {
+    height: 30px;
+    width: 120px;
+}
+
+select {
+    border: none;
+    background-color: lightgray;
+}
+
+
+.grid-container {
+    display: flex;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar{
+        background: lightgrey;
+    }    
+}
+@media only screen and (min-width:768px){
+    .grid-container {
+      background: white;
+    }    
+}
+
+.table { 
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 700px;
+    
+} 
+
+.form { 
+    border-collapse: collapse; 
+    width: 300px;
+    margin-right: 200px;
+} 
+
+.form label{
+  padding-bottom: 5px;
+  width: 300px;
+}
+
+.form input[type=text]{
+    height: 30px;
+    width: 100%;
+}
+
+tr, td, th { 
+    padding: 8px; 
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+    width: fit-content auto;
+}
+
+.line {
+    margin-top: 40px;
+    border-top: 1px solid lightgray;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.table2 { 
+    border-collapse: collapse;
+    width: 700px;   
+} 
+
+p {
+    width:300px;
+    margin-right: 170px;
+    margin-left: 0px;
+}
+
+.table2 tr, .table2 th, .table2 td {
+    width: auto;
+    border-bottom: none;
+}
+
+.wrapper {
+    justify-content: right;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.wrapper a {
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    max-height: fit-content;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    background: rgba(77,77, 77, 0.7);
+}
+
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modalcontent {
+    position: relative;
+    background: white;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+
+ a .btn1 {
+    margin-left: 250px;
+    font-size: 36;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.modalclose {
+    position: absolute;
+    top:0;
+    right: 15px;
+    text-decoration: none;
+    font-size: 36px;
+    color: gray;
+}
+
+h1, p{
+    text-align: left;
+    padding-bottom: 10px;
+}

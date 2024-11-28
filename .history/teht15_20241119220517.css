@@ -1,0 +1,51 @@
+.grid-container {
+  display: grid;
+  gap: 10px;
+  border: 1px solid black;
+  width: 30%;
+  justify-content: left;
+}
+
+.grid-item{
+    text-align:left;
+    padding: 10px;
+    grid-column: 1 /span 1;
+    width: 120px;
+}
+
+.grid-item > div {
+  border: 1px solid black;
+  margin: 5px;
+  padding:5px;
+
+}
+
+.otsikko1 {
+  grid-row:4/span 3;
+}
+
+.grid-item-three {
+   padding: 10px;
+   grid-column: 2 / span 1;
+}
+
+.grid-item-three > div {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+
+}
+.grid-item-four {
+   padding: 10px;
+   margin: 5px;
+   grid-column: 1 / span 2;
+   border: 1px solid black;
+}
+.grid-item-four > div {
+}
+
+
+
+
+
+

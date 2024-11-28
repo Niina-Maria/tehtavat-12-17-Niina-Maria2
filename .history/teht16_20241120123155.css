@@ -1,0 +1,41 @@
+.grid-container {
+    border: 1 px solid black;
+}
+
+.taulukko {
+    display: grid;
+    grid-template-columns: 2;
+    width: 200px;
+    grid-auto-rows: 50px;
+    border: 1 px solid black;
+}
+
+.taulukko div {
+    
+    grid-column: 1/span 2;
+    justify-content: left;
+}
+
+.taulukko .a1 {
+    grid-column: 1 /span 1;
+    border: 1 px solid black;
+}
+
+.taulukko .a2 {
+    grid-column: 2/ span 2;
+    justify-content: left;
+    margin-left: 10px;
+    border: 1 px solid black;
+}
+
+.taulukko .a3 {
+    grid-column: 1 /span 1;
+    border: 1 px solid black;
+}
+
+.taulukko .a4 {
+    grid-column: 2/ span 2;
+    justify-content: left;
+    margin-left: 10px;
+    border: 1 px solid black;
+}

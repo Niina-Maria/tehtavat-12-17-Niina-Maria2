@@ -1,0 +1,21 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 3;
+    grid-auto-rows: min-content;
+
+}
+
+.taulukko div {
+    border: 1 px solid black;
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+}
+
+.taulukko .a1 {
+    grid-column: span 1;
+}
+
+.taulukko .a2 {
+    grid-column: span 2;
+}

@@ -1,0 +1,44 @@
+.navbar {
+    align-content: center;
+}
+
+.grid-container {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar{
+        background: grey;
+    }    
+}
+@media only screen and (min-width:768{
+    .grid-container {
+      background: white;
+    }
+    
+}
+
+.column {
+    margin-right: 100px;
+}
+
+.table { 
+    border-collapse: collapse; 
+    width: 66%;
+} 
+
+.form { 
+    border-collapse: collapse; 
+    width: 33%; 
+   padding-right: 100px; 
+
+} 
+
+th, 
+td { 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+} 

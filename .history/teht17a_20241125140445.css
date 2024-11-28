@@ -1,0 +1,28 @@
+.grid-container {
+    display: flex;
+}
+
+.table { 
+    border-collapse: collapse; 
+    width: 66%; 
+    margin-right: 10px; 
+
+} 
+
+.form { 
+    border-collapse: collapse; 
+    width: 33%; 
+    margin-right: 10px; 
+
+} 
+
+th, 
+td { 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+} 
+
+th { 
+    background-color: #f2f2f2; 
+} 

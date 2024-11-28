@@ -1,0 +1,96 @@
+*,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+li {
+    list-style: none;
+}
+
+.nav-wrapper {
+    height: 80px;
+    display: flex;
+    padding-left: 5px;
+    padding-top: 30px;
+    background-color: lightgray;
+    justify-content: space-between;
+
+}
+
+.right-menu {
+    display: flex;
+    padding-right: 5px;
+}
+
+.right-menu-items {
+    display: flex;
+    margin-left: 400px;;
+  }
+
+.right-menu-items li a {
+    padding: 0 12px;
+  }
+
+
+
+.logo {
+    height: 30px;
+    width: 120px;
+}
+
+select {
+    border: none;
+    background-color: lightgray;
+}
+
+
+.grid-container {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar{
+        background: lightgrey;
+    }    
+}
+@media only screen and (min-width:768){
+    .grid-container {
+      background: white;
+    }    
+}
+
+.column {
+    padding-top: 20px;
+    align-content: space-between;
+}
+
+.table { 
+    border-collapse: collapse; 
+    width: 2/3;
+    
+} 
+
+.form { 
+    border-collapse: collapse; 
+    width: 1/3;
+    margin-right: 550px; 
+} 
+
+.form, input {
+    height: 30px;
+    width: 250px;
+
+}
+
+
+th, 
+td { 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+} 
