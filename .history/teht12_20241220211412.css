@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box; 
    }
    body {
@@ -68,7 +68,7 @@
       align-content: center;
     } */
    
-   #ekamainos {
+/*    #ekamainos {
     border-width: 1px;
     border-style: solid;
     width: 140px;
@@ -83,7 +83,7 @@
     height: 80px;
     text-align: center;
     align-content: center;
-    }
+    } */
 /*    #ekateksti{
     border-width: 1px;
     border-style: solid;
@@ -100,3 +100,92 @@
     position: absolute;
  
    } */
+
+   /* Yleinen tyyli */
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Header ja footer */
+header, footer {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Layout-grid */
+#layout {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 20px;
+  flex: 1;
+}
+
+/* Navigaatio vasemmassa laidassa */
+#mainNav {
+  grid-column: 1;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#mainNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#mainNav ul li {
+  margin: 10px 0;
+}
+
+#mainNav ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 5px;
+  background-color: #eaeaea;
+  border-radius: 4px;
+}
+
+#mainNav ul li a:hover {
+  background-color: #ddd;
+}
+
+/* Artikkeli keskellä */
+article {
+  grid-column: 2;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+}
+
+.flex-container > div {
+  flex: 1;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Mainokset oikealla */
+#siteAds {
+  grid-column: 3;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#siteAds p {
+  margin: 10px 0;
+}

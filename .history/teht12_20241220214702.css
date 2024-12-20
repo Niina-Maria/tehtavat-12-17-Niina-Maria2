@@ -48,7 +48,7 @@
      margin-bottom: 10px;
    }
    .flex-container {
-    display: flex;
+    display: grid;
     flex-direction: row;
     justify-content: space-evenly;   
    }
@@ -59,7 +59,7 @@
     border-style: solid;
     width: 320px;
     height: 150px;
-    display: flex;
+    display: grid;
     padding: 10px;
     }
 
