@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="teht16.css">
+    </head>
+    <style>
+    
+    </style>
+    <body>
+        <header><h1>Syötä ilmottautumistiedot</header>
+        <div class="grid-container">
+            <div class="taulukko">
+                <div class="a a1">Oppilaitos</div>
+                <div class="a a2"><input type="text" id="school" name="school"></div>
+                <div class="line"></div>
+                <div class="a a3">Nimi</div>
+                <div class="a a4"><input type="text" id="name" name="name"></div>
+                <div class="line"></div>
+                <div class="a a5">Vuosi</div>
+                <div class="a a6"><input type="password" id="year" name="year"></div>
+                <div class="line"></div>
+                <div class="a a7">Kurssin nimi</div>
+                <div class="a a8">
+                    <select class="course" name="course" size="1">
+                    <option value="matematiikka">Matematiikka</option>
+                    <option value="fysiikka">Fysiikka</option>
+                    <option value="kemia">Kemia</option>
+                    <option value="tietorakenteet">Tietorakenteet</option>
+                    <option value="webohjelmointi">Webohjelmointi</option>
+                    </select>  
+                </div>
+                <div class="line"></div>
+                <div class="a a9">Kurssin tyyppi:</div>
+                <div class="a a10">
+                    <select class="type" name="type" size="1">
+                        <option value="lähiopetus">Lähiopetus</option>
+                        <option value="etäopetus">Etäopetus</option>
+                        <option value="hybridi">Hybridi</option>
+                        <option value="monimuoto">Monimuoto</option>
+                        <option value="avoinamk">AvoinAMK</option>
+                    </select>
+                </div>
+                <div class="line"></div>
+                <div class="a a11">Sukupuoli:</div>
+                <div class="a a12">
+                    <label for="male" class="radio">Mies
+                    <input type="radio" id="male" name="gender" value="male">                             
+                    </label>
+                    <label for="female" class="radio">Nainen
+                    <input type="radio" id="female" name="gender" value="female">
+                    </label>
+                    <label for="other" class="radio">En kommentoi
+                    <input type="radio" id="other" name="gender" value="other">
+                    </label>
+                </div>
+                <div class="line"></div>
+                <div class="a a13">Harrastukset:</div>
+                <div class="a a14" >
+                    <label for="hobbiesbike" class="checkbox"> Pyöräily
+                        <input type="checkbox" id="hobbiesbike" name="hobbiesbike">
+                    </label>
+                    <label for="hobbiesaskartelu" class="checkbox"> Askartelu
+                        <input type="checkbox" id="hobbiesaskartelu" name="hobbiesaskartelu">
+                    </label>
+                    <label for="hobbiestennis" class="checkbox"> Tennis
+                        <input type="checkbox" id="hobbiestennis" name="hobbiestennis" checked="checked">
+                    </label>
+                    <label for="hobbiesuinti" class="checkbox"> Uinti
+                        <input type="checkbox" id="hobbiesuinti" name="hobbiesuinti">
+                    </label> 
+                </div>
+                <div class="line"></div>
+                <div class="a a15">
+                    <label for="napit" class="napit">
+                        <button id="napit1">Tyhjennä</button>
+                        <button id="napit2">Lähetä</button>
+                    </label>
+                </div>
+    
+            </div>
+        </div>
+    </body>

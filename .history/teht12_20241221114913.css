@@ -1,0 +1,86 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "header header header"
+    "mainNav mainNav2"
+    "mainArticle mainArticle mainArticle"
+    "footer footer footer";
+    grid-template-rows: 60px 250px 60px;
+    grid-template-columns: 20% 65% 15%;
+    grid-gap: 10px;
+    height: 100vh;
+    margin: 0;  
+}
+header, footer, article, nav, div {
+    padding: 20px;
+    background: gold;
+  }
+
+#pageHeader {
+    grid-area: header;
+    text-align: center;
+
+}
+#pageFooter {
+    grid-area: footer;
+    text-align: center;
+}
+#mainArticle {
+    display:grid;
+    grid-area: mainArticle;
+    position: relative;
+}
+#mainNav {
+    grid-area: mainNav;;
+}
+#siteAds {
+    grid-area: siteAds;
+    position:relative;
+}
+#ekateksti {
+    border-width: 1px;
+    border-style: solid;
+    width: 320px;
+    height: 150px;
+    left: 7%;
+    top: 13%;
+    position: absolute;
+    display: grid;
+}
+#tokateksti {
+    border-width: 1px;
+    border-style: solid;
+    width: 320px;
+    height: 150px;
+    left: 52%;
+    top: 6%;
+    position: relative;
+    display: grid;
+}
+#ekamainos {
+    border-width: 1px;
+    border-style: solid;
+    width: 140px;
+    height: 80px;
+    text-align: center;
+    align-content: center;
+}
+#tokamainos {
+    border-width: 1px;
+    border-style: solid;
+    width: 140px;
+    height: 80px;
+    text-align: center;
+    align-content: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-gap: 10px; */
+    justify-content: space-evenly;
+}
+/* .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+} */

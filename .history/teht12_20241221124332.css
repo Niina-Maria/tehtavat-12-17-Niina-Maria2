@@ -1,0 +1,86 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "mainNav mainArticle siteAds"
+        "mainNav mainArticle siteAds"
+        "footer footer footer";
+    grid-template-rows: auto 1fr 1fr auto;
+    grid-template-columns: 20% 65% 15%;
+    grid-gap: 10px;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer, nav, article, div {
+    padding: 20px;
+    background: gold;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+#pageHeader {
+    grid-area: header;
+    text-align: center;
+}
+
+#pageFooter {
+    grid-area: footer;
+    text-align: center;
+}
+
+#mainNav {
+    display: grid;
+    grid-area: mainNav;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#mainNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#mainNav li a {
+    text-decoration: none;
+}
+
+#mainArticle {
+    grid-area: mainArticle;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#mainArticle > div {
+    display: grid;
+    background-color: lightyellow;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#siteAds {
+    grid-area: siteAds;
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+    align-items: start;
+}
+
+#ekamainos, #tokamainos {
+    border: 1px solid #ccc;
+    width: 140px;
+    height: 80px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+}
